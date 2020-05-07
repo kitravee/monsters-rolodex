@@ -28,6 +28,7 @@ class App extends Component {
     const filteredMonsters = monsters.filter(monster =>
       monster.name.toLowerCase().includes(searchField.toLowerCase())
     );
+
     return (
       <div className="App">
         <h1>Monsters</h1>
